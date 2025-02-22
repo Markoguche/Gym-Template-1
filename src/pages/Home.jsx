@@ -272,6 +272,68 @@ style={{ backgroundImage: `url(${bg8})` }}
     VISIT SHOP
   </button>
 </section>
+<footer className="bg-black text-white py-10 px-6 md:px-24 text-center md:text-left">
+  <div className="text-center">
+  <h1 className="text-5xl font-bold uppercase mb-12 relative">
+      FENRIZ
+      <span className="absolute left-1/2 -translate-x-1/2 bottom-[-10px] h-2 w-40 bg-gradient-to-r from-yellow-400 via-red-500 to-blue-600"></span>
+    </h1>
+
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    {/* Address Section */}
+    <div>
+      <h3 className="font-bold uppercase text-sm mb-2">Address</h3>
+      <p>Fenriz Gym</p>
+      <p>Lobeckstraße 36</p>
+      <p>10969 Berlin</p>
+    </div>
+
+    {/* Opening Hours */}
+    <div>
+      <h3 className="font-bold uppercase text-sm mb-2">Opening Hours:</h3>
+      <p>Mo-Fr <strong>07 AM - 10 PM</strong></p>
+      <p>Saturday <strong>10 AM - 4 PM</strong></p>
+      <p>Sunday <strong>10 AM - 5 PM</strong></p>
+    </div>
+
+    {/* Social Links */}
+    <div className="flex flex-col items-center md:items-start">
+      <h3 className="font-bold uppercase text-sm mb-2">Follow Us:</h3>
+      <div className="flex space-x-4">
+        <a href="#" className="text-white text-lg hover:text-gray-400"><i className="fab fa-instagram"></i></a>
+        <a href="#" className="text-white text-lg hover:text-gray-400"><i className="fab fa-facebook"></i></a>
+        <a href="#" className="text-white text-lg hover:text-gray-400"><i className="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  {/* Links Section */}
+  <div className="mt-8">
+    <div className="flex flex-wrap justify-center md:justify-between gap-4 text-sm font-bold uppercase">
+      <a href="#" className="hover:text-gray-400">Help</a>
+      <a href="#" className="hover:text-gray-400">Courses</a>
+      <a href="#" className="hover:text-gray-400">Events</a>
+      <a href="#" className="hover:text-gray-400">Pricing</a>
+      <a href="#" className="hover:text-gray-400">About Us</a>
+      <a href="#" className="hover:text-gray-400">Course Plan</a>
+      <a href="#" className="hover:text-gray-400">Shop</a>
+      <a href="#" className="hover:text-gray-400">Member Area</a>
+    </div>
+  </div>
+
+  {/* Legal Section */}
+  <div className="mt-6 flex flex-col md:flex-row justify-center md:justify-between text-sm text-gray-400">
+    <a href="#" className="hover:text-white">Data Privacy</a>
+    <a href="#" className="hover:text-white">Imprint</a>
+  </div>
+
+  {/* Copyright */}
+  <p className="text-sm text-gray-400 mt-4">
+    Copyright Fenriz Trainingszentrum GmbH 2024
+  </p>
+</footer>
 
 
       
