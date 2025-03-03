@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto py-4 font-semibold text-white bg-transparent">
         <div className="ml-12 lg:mx-0 sm:mx-auto">
-          <img src={logo} alt="logo" className="lg:w-16 sm:w-28 ml-32" />
+          <img src={logo} alt="logo" className="lg:w-16 sm:w-28 ml-24" />
         </div>
         <div className="hidden lg:flex space-x-6 uppercase text-sm">
           {["Help", "Courses", "Events", "Pricing", "About Us", "Course Plan", "Shop", "Member Area"].map((item) => (
